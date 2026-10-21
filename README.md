@@ -9,6 +9,8 @@
 
 This repository contains the complete production-ready web application and strategic positioning suite for **Growify Digital LLP** (founded 2019, New Delhi; Founders: Rishab Mehra & Disha Bhatnagar). The implementation reimagines Growify from an isolated marketing agency into a full-funnel connected commerce partner for luxury and lifestyle brands.
 
+- **Live Production Deployment:** [https://growify-digital.vercel.app](https://growify-digital.vercel.app)
+- **GitHub Repository:** [https://github.com/SARTHAK-STAC/growify-digital](https://github.com/SARTHAK-STAC/growify-digital)
 - **Factual Integrity:** Built strictly using the primary *Growify Growth Deck* and *Candidate Assignment Brief*. All claims are attributed to verified data points; inconsistencies in source materials (such as Mahima Mahajan's 251% revenue metric and Ridhi Mehra's unspecified 72M unit) are explicitly preserved and tagged with `NEEDS VALIDATION` rather than artificially fabricated.
 - **Production Completeness:** 18 fully developed routes with editorial typography, custom fashion imagery, Radix UI primitives, dynamic SEO metadata, and zero dead links.
 

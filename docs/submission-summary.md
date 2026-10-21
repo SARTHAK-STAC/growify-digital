@@ -4,6 +4,7 @@
 **Date:** October 2026  
 **Project Workspace:** `C:\growify`  
 **Local Production Preview:** `http://127.0.0.1:3000/`  
+**Live Production Deployment:** [https://growify-digital.vercel.app](https://growify-digital.vercel.app)  
 **GitHub Repository:** [https://github.com/SARTHAK-STAC/growify-digital](https://github.com/SARTHAK-STAC/growify-digital)
 
 ---
