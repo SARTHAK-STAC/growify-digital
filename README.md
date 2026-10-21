@@ -36,8 +36,8 @@ This repository contains the complete production-ready web application and strat
 ### Quick Start
 ```bash
 # 1. Clone the repository
-git clone <repository-url>
-cd growify
+git clone https://github.com/SARTHAK-STAC/growify-digital.git
+cd growify-digital
 
 # 2. Install dependencies
 npm install

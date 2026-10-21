@@ -3,7 +3,8 @@
 **Candidate Submission & Strategic Technical Deliverable**  
 **Date:** October 2026  
 **Project Workspace:** `C:\growify`  
-**Local Production Preview:** `http://127.0.0.1:3000/`
+**Local Production Preview:** `http://127.0.0.1:3000/`  
+**GitHub Repository:** [https://github.com/SARTHAK-STAC/growify-digital](https://github.com/SARTHAK-STAC/growify-digital)
 
 ---
 
