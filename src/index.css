@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 97%;
+    --foreground: 0 8% 16%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 8% 16%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 8% 16%;
+    --primary: 271 23% 25%;
+    --primary-foreground: 40 33% 97%;
+    --secondary: 40 25% 94%;
+    --secondary-foreground: 271 23% 25%;
+    --muted: 36 20% 93%;
+    --muted-foreground: 0 3% 40%;
+    --accent: 273 47% 72%;
+    --accent-foreground: 271 23% 25%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 271 15% 88%;
+    --input: 271 15% 88%;
+    --ring: 271 23% 25%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-[#BB96DA]/30 selection:text-[#1A1420];
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Luxury Editorial Accents */
+.editorial-rule {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(63,48,77,0.18) 0%, rgba(63,48,77,0.06) 100%);
+}
+
+.editorial-rule-light {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.05) 100%);
+}
+
+.luxury-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(63, 48, 77, 0.08);
+  box-shadow: 0 10px 30px -10px rgba(44, 38, 38, 0.05);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px -15px rgba(63, 48, 77, 0.12);
+  border-color: rgba(187, 150, 218, 0.3);
+}
+
+.dark-luxury-card {
+  background: rgba(26, 20, 32, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Subtle continuous marquee animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
